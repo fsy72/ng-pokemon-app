@@ -1,0 +1,44 @@
+.container {
+    display: flex;
+    justify-content: center;
+}
+.content h2 {
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 0;
+}
+.content > div {
+    display: flex;
+    align-items: center;
+    width: 40rem;
+    padding: 1rem;
+    border-radius: 5px;
+    border: 1px solid #007266;
+    box-shadow: 0 0 8px rgba(0, 33, 30, 0.514);
+}
+.card-stacked {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 1rem;
+}
+table {
+    width: 100%;
+    /* display: table; */
+    border-collapse: collapse;
+}
+tbody td {
+    padding: 7px;
+}
+tbody tr.striper {
+    background-color: rgba(242, 242, 242, 0.5);
+}
+.card-action a {
+    margin-left: 10px;
+    font-size: 21px;
+    color: coral;
+    cursor: pointer;
+}
+.card-action a:hover {
+    text-decoration: underline;
+}

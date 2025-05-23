@@ -1,0 +1,51 @@
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 0 9px #002f2b64;
+    border-radius: 5px;
+    padding: 1rem;
+}
+
+.card-title {
+    display: block;
+    text-align: center;
+    font-size: 19px;
+    font-weight: bold;
+}
+
+input {
+    font-size: 1rem;
+    display: block;
+    border: 1px solid;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+input:focus {
+    border: 1px solid;
+    outline: none;
+    background-color: #b2fff742;
+}
+
+form div {
+    margin-top: 15px;
+}
+
+.card-action {
+    font-weight: bold;
+    border: none;
+    padding: 6px 10px;
+    border-radius: 5px;
+    background-color: #00b300;
+    color: white;
+    transition: all 0.3s;
+    cursor: pointer;
+    margin-top: 1rem
+}

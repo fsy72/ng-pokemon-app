@@ -1,0 +1,14 @@
+nav {
+    text-align: center;
+    background-color: #009688;
+    padding: 1rem;
+    box-shadow: 0 5px 10px #006c63 inset;
+}
+nav a {
+    font-size: 2rem;
+    text-decoration: none;
+    color: #f5f5f5;
+}
+nav a:hover {
+    text-decoration: underline;
+}

@@ -1,0 +1,18 @@
+<div class="container">
+    <app-search-pokemon></app-search-pokemon>
+    <div>
+        <div *ngFor="let pokemon of pokemonList">
+            <div pkmnBorderCard (click)="goToPokemon(pokemon)" class="pokemon">
+                <img [src]="pokemon.picture" [alt]="pokemon.picture">
+                <div>
+                    <h3>{{ pokemon.name }}</h3>
+                    <p><small>{{ pokemon.created | date:"dd/MM/yyyy" }}</small></p>
+                    <span *ngFor="let type of pokemon.types" class="{{ type | pokemonTypeColor }} pokemonTypeColor">
+                        {{ type }}
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<a (click)="goToAddPokemon()">+</a>

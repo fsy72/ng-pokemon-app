@@ -1,1 +1,45 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+    margin: 0;
+    padding: 0;
+}
+.pokemonTypeColor {
+    color: rgba(0, 0, 0, 0.6);
+    padding: 5px 10px;
+    margin: 5px;
+    border-radius: 16px;
+    display: inline-block;
+}
+.red.lighten-1 {
+    background-color: rgba(255, 0, 0, 0.67);
+}
+.blue.lighten-1 {
+    background-color: rgba(0, 0, 255, 0.67);
+}
+.green.lighten-1 {
+    background-color: rgba(0, 128, 0, 0.67);
+}
+.brown.lighten-1 {
+    background-color: rgba(165, 42, 42, 0.67);
+}
+.grey.lighten-3 {
+    background-color: rgba(128, 128, 128, 0.67);
+}
+.blue.lighten-3 {
+    background-color: rgba(0, 0, 255, 0.67);
+}
+.deep-purple.accent-1 {
+    background-color: rgba(128, 0, 128, 0.67);
+}
+.pink.lighten-4 {
+    background-color: rgba(255, 192, 203, 0.67);
+}
+.deep-purple.darken-2 {
+    background-color: rgba(190, 0, 190, 0.67);
+}
+.lime.accent-1 {
+    background-color: rgba(255, 247, 0, 0.865);
+}
+.deep-orange {
+    background-color: rgba(255, 166, 0, 0.67);
+}
